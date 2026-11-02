@@ -28,4 +28,4 @@ USER 65534:65534
 # docker run blackjack-bot:1.0 smart 200             -> your own arguments
 # docker run --entrypoint /app/leaderboard.sh ...    -> run the leaderboard instead
 ENTRYPOINT ["/app/simulate.sh"]
-CMD ["stand-on-16", "1000"]
+CMD ["stand-on-14", "1000"]
